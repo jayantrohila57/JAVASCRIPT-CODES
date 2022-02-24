@@ -1,0 +1,44 @@
+/*  global classes */
+nav {
+	margin: 20px;
+	padding-left: 20px;
+	border-radius: var(--radius);
+	color: var(--text-color);
+	background: var(--nav-primary);
+	height: 3rem;
+	display: grid;
+	align-items: center;
+	box-shadow: var(--dark-shadow);
+	transition: var(--transition);
+}
+.nav-center {
+	width: 90vw;
+	max-width: var(--fixed-width);
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	transition: var(--transition);
+}
+.nav-links {
+	display: flex;
+	list-style-type: none;
+	transition: var(--transition);
+}
+nav a {
+	text-transform: capitalize;
+	font-weight: 700;
+	font-size: 1rem;
+	color: var(--text-color);
+	margin-right: 1rem;
+	text-decoration: none;
+	transition: var(--transition);
+}
+.active{
+    	border-bottom: 2px solid;
+		transition: var(--transition);
+}
+nav a:hover {
+	border-bottom: 2px solid;
+	transition: var(--transition);
+}

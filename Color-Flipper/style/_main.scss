@@ -1,0 +1,50 @@
+/*
+=============== 
+Container
+===============
+*/
+main {
+	height: 100%;
+	min-height: 500px;
+	display: grid;
+	place-items: center;
+	transition: var(--transition);
+}
+h1 {
+	letter-spacing: var(--spacing);
+	text-transform: capitalize;
+	line-height: 1.25;
+	margin-bottom: 0.75rem;
+	font-family: var(--ff-primary);
+	h1 {
+		font-size: 3rem;
+	}
+}
+.main-box {
+	height: 200px;
+	width: 300px;
+	color: var(--text-color);
+	background: var(--nav-primary);
+	box-shadow: var(--dark-shadow);
+	padding: 1rem;
+	border: 0px solid;
+	border-radius: var(--radius);
+}
+
+.btn-hero {
+	color: var(--text-color);
+	background: var(--nav-primary);
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: 700;
+	border: 0px solid;
+	cursor: pointer;
+	box-shadow: var(--dark-shadow);
+	border-radius: var(--radius);
+	font-size: 1rem;
+	padding: 0.75rem 1.25rem;
+}
+.btn-hero:hover {
+	color: var(--text-color);
+	background: var(--nav-primary);
+}
