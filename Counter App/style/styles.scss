@@ -1,0 +1,108 @@
+html {
+	scroll-behavior: smooth;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-color: rgb(0, 0, 0);
+	box-sizing: border-box;
+}
+.container {
+    margin-top: 20%;
+    height: 95%;
+    min-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.logo {
+	border-radius: 10px;
+	height: 100px;
+	width: 300px;
+	margin: 20px;
+    color: aliceblue;
+	background-color: rgb(44, 44, 44);
+    box-shadow: 0px 0px 20px rgb(59, 59, 59);
+}
+.logo h1 {
+	text-align: center;
+	padding: 20px;
+	font-size: 40px;
+	margin: 0px;
+}
+.main-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	height: 300px;
+	width: 300px;
+	margin: 20px;
+	border-radius: 10px;
+	background-color: rgb(44, 44, 44);
+    box-shadow: 0px 0px 20px rgb(59, 59, 59);
+}
+.count-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-evenly;
+	align-items: center;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	border-radius: 10px;
+	height: 180px;
+	width: 280px;
+	margin: 0px;
+    color:rgb(255, 255, 255);
+	background-color: rgb(44, 44, 44);
+	font-size: 80px;
+}
+.button-container {
+	border-radius: 10px;
+	height: 80px;
+	width: 280px;
+	margin: 0px;
+    background-color: rgb(44, 44, 44);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.btn {
+	border: 0px;
+	border-radius: 10px;
+    font-size: large;
+    color:rgb(255, 255, 255);
+    background-color: rgb(71, 71, 71);
+	height: 60px;
+    transition: 0.4s;
+	width: 80px;
+}
+.btn:hover {
+    transition: 0.4s;
+	border: 0px;
+	border-radius: 12px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(112, 112, 112);
+}
