@@ -11,3 +11,4 @@ Language Used:-<br>
 ----------These Application Contains:---------<br>
 #1 🌈 Color Flipper Application: <a href="https://webapps.pages.dev/Color-Flipper/">Link</a><br>
 #2 🔢 Number Counter Application: <a href="https://webapps.pages.dev/Counter%20App/">Link</a><br>
+#3 🤷‍♂️ Author Review Application: <a href="https://webapps.pages.dev/Review%20App/">Link</a><br>
