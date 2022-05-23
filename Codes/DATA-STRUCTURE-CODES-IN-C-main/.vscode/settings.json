@@ -1,0 +1,19 @@
+{
+    "cmake.configureOnOpen": true,
+    "files.associations": {
+        "TEXT.C": "cpp"
+    },
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.mouseWheelZoom": true,
+    "editor.parameterHints.cycle": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "editor.showFoldingControls": "always",
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.fastScrollSensitivity": 8,
+    "editor.mouseWheelScrollSensitivity": 3,
+    "jupyter.alwaysScrollOnNewCell": true,
+    "python.autoComplete.addBrackets": true
+}

@@ -1,0 +1,17 @@
+@import "colors";
+@import "path/to/file";
+$text-color:red;
+.header {
+    text-align: center;
+}
+
+.blog-post,
+h2 {
+    color: $text-color;
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}

@@ -1,0 +1,109 @@
+h3 {
+    text-align: center;
+}
+
+.info,
+.info-important {
+    width: 200px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.info-important {
+    background-color: magenta;
+}
+
+.texts-1 {
+    font-size: 15px;
+}
+
+.texts-2 {
+    font-size: 30px;
+}
+
+.texts-3 {
+    font-size: 45px;
+}
+
+.texts-4 {
+    font-size: 60px;
+}
+
+.texts-5 {
+    font-size: 75px;
+}
+
+.texts-6 {
+    font-size: 90px;
+}
+
+.texts-7 {
+    font-size: 105px;
+}
+
+.texts-8 {
+    font-size: 120px;
+}
+
+.texts-9 {
+    font-size: 135px;
+}
+
+.blue-bg {
+    margin-top: 20px;
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.black-bg {
+    margin-top: 20px;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+
+.red-bg {
+    margin-top: 20px;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.text-1 {
+    font-size: 15px;
+}
+
+.text-2 {
+    font-size: 30px;
+}
+
+.text-3 {
+    font-size: 45px;
+}
+
+.text-4 {
+    font-size: 60px;
+}
+
+.text-5 {
+    font-size: 75px;
+}
+
+#awesome {
+    width: 150px;
+    height: 150px;
+    background-color: #ce6f57;
+    border-radius: 15px;
+}
+
+#box {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 3px solid black;
+}
+
+
+/*# sourceMappingURL=styles.css.map */
